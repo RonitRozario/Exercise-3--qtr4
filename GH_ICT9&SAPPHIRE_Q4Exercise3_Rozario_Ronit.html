@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title>Exercise 3</title>
+<body>
+<p>
+       <input id="inputcm" type="number" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>feet: <span id="outputFeet"></span></p>
+
+<script>
+function LengthConverter(Num) {
+  document.getElementById("outputFeet").innerHTML=val*0.0328;
+}
+</script>
+</body>
+</html>
